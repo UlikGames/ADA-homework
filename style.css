@@ -1,5 +1,19 @@
 /*Typography*/
-html,body,div,span,h1,h2,h3,h4,h5,h6,a,img,ul,li,footer {
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+img,
+ul,
+li,
+footer {
     margin: 0;
     padding: 0;
     border: 0;
@@ -135,7 +149,7 @@ nav h1 a {
 
 .active {
     background: #ad0000;
-    color: #fff!important;
+    color: #fff !important;
 }
 
 header li {
