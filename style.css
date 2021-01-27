@@ -256,6 +256,99 @@ hr {
     margin: 4em auto;
 }
 
+/*Events*/
+.sec-events>h1 {
+    margin-top: 1em;
+}
+
+.sec-events article {
+    float: left;
+    padding: 0 .25em;
+    width: 25%;
+    text-align: justify;
+}
+
+.sec-events article h1,
+.sec-events article p {
+    display: block;
+    margin: .5em 0;
+    padding: .25em 1em;
+    font-size: 110%;
+}
+
+.sec-events article a {
+    float: right;
+    padding-right: 1em;
+}
+
+.sec-events article h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Projects*/
+.sec-projects {
+    width: 60%;
+}
+
+.sec-projects>h1 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.sec-projects article {
+    padding: .5em 0;
+    width: 100%;
+}
+
+.sec-projects article h1,
+.sec-projects article p {
+    font-size: 110%;
+}
+
+.sec-projects article h1 {
+    font-weight: bold;
+}
+
+.sec-projects article p {
+    margin: .5em .5em .5em 0;
+    text-align: justify;
+}
+
+.sec-projects p a {
+    float: right;
+}
+
+.sec-projects button {
+    position: relative;
+    left: 80%;
+}
+
+/*Standards*/
+.sec-standards {
+    width: 40%;
+}
+
+.sec-standards>h1 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.sec-standards article {
+    float: left;
+    padding: .5em 1em;
+    width: 50%;
+    text-align: justify;
+}
+
+.sec-standards article:last-child {
+    padding: .5em 0;
+}
+
+.sec-standards article h1 {
+    text-align: center;
+}
+
 /*Footer*/
 footer {
     padding: 2em 0;
@@ -273,7 +366,7 @@ footer li:not(:first-child) {
     margin-left: 0.75em;
 }
 
-footer li:first-child a {
+.active-bot {
     color: #333;
 }
 
